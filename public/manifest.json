@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "AI Context Bridge",
+  "version": "0.1.0",
+  "description": "Prepare to carry useful context between AI platforms.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "AI Context Bridge",
+    "default_popup": "index.html"
+  },
+  "background": {
+    "service_worker": "background/service-worker.js"
+  }
+}
